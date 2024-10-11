@@ -1,6 +1,6 @@
 '''
 pip install Flask pywin32 passlib
-
+pip install bcrypt
 
 '''
 import os
