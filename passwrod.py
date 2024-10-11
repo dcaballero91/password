@@ -2,6 +2,18 @@
 pip install Flask pywin32 passlib
 pip install bcrypt
 
+Entrada
+http://localhost:5000/generate_password
+{
+   "username": "pepito"
+}
+
+Salida:
+{
+   "expires_at": "2024-10-11 01:18:35",
+   "temp_password": "b@8!E@eflSG$",
+   "username": "pepito"
+}
 '''
 import os
 import win32net
